@@ -1,5 +1,6 @@
 #!/bin/sh
 
+set -e
 set -x
 
 if [ "$#" -ne 2 ]; then
