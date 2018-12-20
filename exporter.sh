@@ -16,7 +16,7 @@ INPUT_FILENAME=$(basename $GCS_INPUT)
 OUTPUT_FILENAME=$(basename $GCS_OUTPUT)
 INTER_FILENAME="buildings-$INPUT_FILENAME"
 
-function cleanup {
+cleanup() {
     rm -f "$OUTPUT_FILENAME.gz"
     rm -f $OUTPUT_FILENAME
     rm -f $INTER_FILENAME
