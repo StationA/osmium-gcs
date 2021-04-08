@@ -1,4 +1,4 @@
-# osmium-gcs
+# osmium-gcs [![Docker Pulls](https://img.shields.io/docker/pulls/stationa/osmium-gcs)](https://hub.docker.com/r/stationa/osmium-gcs)
 
 [osmium-tool](https://osmcode.org/osmium-tool/) wrapper that allows you to download OSM files from
 GCS, export the data as a GeoJSON sequence file, and upload the result into GCS.
